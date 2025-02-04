@@ -60,7 +60,6 @@ echo '<ul>
 // https://api.github.com/repos/BrickMMO/tasks/contributors
 foreach($result as $contributor)
 {
-  
   echo '<h2>'.$contributor['login'].'</h2>
     <a href="https://github.com/'.$contributor['login'].'">
       https://github.com/'.$contributor['login'].'
@@ -70,5 +69,4 @@ foreach($result as $contributor)
     <br>
     Contributions: '.$contributor['contributions'].'
     <hr>';
-
 }
